@@ -32,7 +32,7 @@ public class FlightReservationTest {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions().addArguments("--headless");
 		this.driver = new ChromeDriver(options);
-//		this.driver = new ChromeDriver();
+		//		this.driver = new ChromeDriver();
 		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		this.driver.manage().window().setSize(new Dimension(1920, 1080));
 		driver.get("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html");
@@ -64,11 +64,6 @@ public class FlightReservationTest {
 		Assertions assertions = new Assertions();
 		assertions.verifyFlightConfirmationNumberExists(flightsConfirmationPage);
 		assertions.verifyTotalPriceIsEqualTo(flightsConfirmationPage, expectedPrice);
-	}
-
-	@Test()
-	public void failTest() {
-		assert false;
 	}
 
 }

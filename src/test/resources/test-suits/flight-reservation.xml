@@ -28,4 +28,10 @@
             <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
         </classes>
     </test>
+    <test name="test-to-fail">
+        <classes>
+            <class name="com.automation.framework.flightreservationtest.TestToFail"></class>
+        </classes>
+    </test>
+
 </suite>
