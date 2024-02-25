@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="flight-reservation">
+    <test name="passengers-count-1">
+        <parameter name="noOfPassengers" value="One"/>
+        <parameter name="expectedPrice" value="584"/>
+        <classes>
+            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+        </classes>
+    </test>
+    <test name="passengers-count-2">
+        <parameter name="noOfPassengers" value="Two"/>
+        <parameter name="expectedPrice" value="1169"/>
+        <classes>
+            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+        </classes>
+    </test>
+    <test name="passengers-count-3">
+        <parameter name="noOfPassengers" value="Three"/>
+        <parameter name="expectedPrice" value="1753"/>
+        <classes>
+            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+        </classes>
+    </test>
+    <test name="passengers-count-4">
+        <parameter name="noOfPassengers" value="Four"/>
+        <parameter name="expectedPrice" value="2338"/>
+        <classes>
+            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+        </classes>
+    </test>
+</suite>

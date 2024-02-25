@@ -2,6 +2,9 @@ package com.automation.framework.pages.flightreservation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 
 import com.automation.framework.pages.BasePage;
 
@@ -18,6 +21,13 @@ public class FlightSearchPage extends BasePage {
 
 	public FlightSearchPage(WebDriver driver) {
 		super(driver);
+	}
+
+	public FlightSearchPage chooseNumberOfPassengers(String input) {
+		WebElement passengersDropdown = driver.findElement(this.passengersDropdown);
+		wait.until(ExpectedConditions.elementToBeClickable(passengersDropdown));
+		new Select(driver.findElement(this.passengersDropdown)).selectByVisibleText(input);
+		return this;
 	}
 
 	public SelectFlightsPage clickSearchFlights() {
