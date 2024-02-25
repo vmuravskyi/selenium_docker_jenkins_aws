@@ -6,8 +6,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public abstract class BasePage {
+
+	protected final static Logger LOGGER = LoggerFactory.getLogger(BasePage.class);
 
 	protected WebDriver driver;
 	protected WebDriverWait wait;
