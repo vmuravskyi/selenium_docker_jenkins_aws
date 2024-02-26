@@ -1,5 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="flight-reservation">
+    <parameter name="headless" value="true"></parameter>
     <test name="passengers-count-1">
         <parameter name="noOfPassengers" value="One"/>
         <parameter name="expectedPrice" value="584"/>
@@ -31,6 +32,11 @@
     <test name="test-to-fail">
         <classes>
             <class name="com.automation.framework.tests.flightreservation.TestToFail"></class>
+        </classes>
+    </test>
+    <test name="vendor-portal-test">
+        <classes>
+            <class name="com.automation.framework.tests.vendorportal.VendorPortalTest"></class>
         </classes>
     </test>
 

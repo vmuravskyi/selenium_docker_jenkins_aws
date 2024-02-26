@@ -24,6 +24,10 @@ public class RegistrationPage extends BasePage {
 		super(driver);
 	}
 
+	public void goTo(String url){
+		this.driver.get(url);
+	}
+
 	@Override
 	public boolean isAt() {
 		WebElement registerButtonElement = driver.findElement(this.registerButton);
