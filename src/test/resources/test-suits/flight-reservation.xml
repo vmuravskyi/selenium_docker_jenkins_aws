@@ -4,33 +4,33 @@
         <parameter name="noOfPassengers" value="One"/>
         <parameter name="expectedPrice" value="584"/>
         <classes>
-            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+            <class name="com.automation.framework.tests.flightreservation.FlightReservationTest"></class>
         </classes>
     </test>
     <test name="passengers-count-2">
         <parameter name="noOfPassengers" value="Two"/>
         <parameter name="expectedPrice" value="1169"/>
         <classes>
-            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+            <class name="com.automation.framework.tests.flightreservation.FlightReservationTest"></class>
         </classes>
     </test>
     <test name="passengers-count-3">
         <parameter name="noOfPassengers" value="Three"/>
         <parameter name="expectedPrice" value="1753"/>
         <classes>
-            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+            <class name="com.automation.framework.tests.flightreservation.FlightReservationTest"></class>
         </classes>
     </test>
     <test name="passengers-count-4">
         <parameter name="noOfPassengers" value="Four"/>
         <parameter name="expectedPrice" value="2338"/>
         <classes>
-            <class name="com.automation.framework.flightreservationtest.FlightReservationTest"></class>
+            <class name="com.automation.framework.tests.flightreservation.FlightReservationTest"></class>
         </classes>
     </test>
     <test name="test-to-fail">
         <classes>
-            <class name="com.automation.framework.flightreservationtest.TestToFail"></class>
+            <class name="com.automation.framework.tests.flightreservation.TestToFail"></class>
         </classes>
     </test>
 

@@ -17,6 +17,13 @@ public class FlightsConfirmationPage extends BasePage {
 			"Flights Confirmation"));
 	}
 
+	@Override
+	public boolean isAt() {
+		WebElement flightsConfirmationSectionElement = driver.findElement(this.flightsConfirmationSection);
+		this.wait.until(ExpectedConditions.visibilityOf(flightsConfirmationSectionElement));
+		return flightsConfirmationSectionElement.isDisplayed();
+	}
+
 	public WebElement getFlightsConfirmationSection() {
 		return driver.findElement(flightsConfirmationSection);
 	}

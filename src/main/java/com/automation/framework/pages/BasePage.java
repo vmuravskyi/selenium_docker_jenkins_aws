@@ -22,6 +22,8 @@ public abstract class BasePage {
 		waitForJavaScriptToComplete();
 	}
 
+	public abstract boolean isAt();
+
 	public void waitForJavaScriptToComplete() {
 		// Wait for JavaScript to be ready
 		this.wait.until((ExpectedCondition<Boolean>) wd ->

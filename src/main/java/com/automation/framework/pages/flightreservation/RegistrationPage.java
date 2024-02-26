@@ -2,6 +2,8 @@ package com.automation.framework.pages.flightreservation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import com.automation.framework.pages.BasePage;
@@ -20,6 +22,13 @@ public class RegistrationPage extends BasePage {
 
 	public RegistrationPage(WebDriver driver) {
 		super(driver);
+	}
+
+	@Override
+	public boolean isAt() {
+		WebElement registerButtonElement = driver.findElement(this.registerButton);
+		this.wait.until(ExpectedConditions.visibilityOf(registerButtonElement));
+		return registerButtonElement.isDisplayed();
 	}
 
 	public RegistrationPage enterFirstName(String firstName) {

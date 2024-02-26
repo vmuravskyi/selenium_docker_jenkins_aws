@@ -23,6 +23,13 @@ public class FlightSearchPage extends BasePage {
 		super(driver);
 	}
 
+	@Override
+	public boolean isAt() {
+		WebElement oneWayRadioButtonElement = driver.findElement(this.oneWayRadioButton);
+		this.wait.until(ExpectedConditions.visibilityOf(oneWayRadioButtonElement));
+		return oneWayRadioButtonElement.isDisplayed();
+	}
+
 	public FlightSearchPage chooseNumberOfPassengers(String input) {
 		WebElement passengersDropdown = driver.findElement(this.passengersDropdown);
 		wait.until(ExpectedConditions.elementToBeClickable(passengersDropdown));

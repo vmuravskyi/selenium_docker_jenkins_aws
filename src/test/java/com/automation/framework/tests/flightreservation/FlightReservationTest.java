@@ -1,4 +1,4 @@
-package com.automation.framework.flightreservationtest;
+package com.automation.framework.tests.flightreservation;
 
 import java.time.Duration;
 
