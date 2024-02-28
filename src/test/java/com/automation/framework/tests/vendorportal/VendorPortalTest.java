@@ -2,21 +2,28 @@ package com.automation.framework.tests.vendorportal;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.automation.framework.models.VendorPortalTestData;
 import com.automation.framework.pages.vendorportal.DashboardPage;
 import com.automation.framework.pages.vendorportal.LoginPage;
 import com.automation.framework.tests.BaseTest;
+import com.automation.framework.utils.JsonUtil;
 
 public class VendorPortalTest extends BaseTest {
 
 	private LoginPage loginPage;
 	private DashboardPage dashboardPage;
 
+	private VendorPortalTestData testData;
+
 	@BeforeClass
-	public void setDriver() {
+	@Parameters("testDataPath")
+	public void setPageObjects(String testDataPath) {
 		this.loginPage = new LoginPage(driver);
 		this.dashboardPage = new DashboardPage(driver);
+		this.testData = JsonUtil.getTestData(testDataPath, VendorPortalTestData.class);
 	}
 
 	@Test
@@ -24,7 +31,7 @@ public class VendorPortalTest extends BaseTest {
 		loginPage = new LoginPage(driver);
 		loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
 		Assert.assertTrue(loginPage.isAt());
-		loginPage.login("sam", "sam");
+		loginPage.login(testData.username(), testData.password());
 	}
 
 	@Test(dependsOnMethods = "loginTest")
@@ -32,14 +39,14 @@ public class VendorPortalTest extends BaseTest {
 		Assert.assertTrue(dashboardPage.isAt());
 
 		// finance metrics
-		Assert.assertEquals(dashboardPage.getMonthlyEarning(), "$40,000");
-		Assert.assertEquals(dashboardPage.getAnnualEarning(), "$215,000");
-		Assert.assertEquals(dashboardPage.getProfitMargin(), "50%");
-		Assert.assertEquals(dashboardPage.getAvailableInventory(), "18");
+		Assert.assertEquals(dashboardPage.getMonthlyEarning(), testData.monthlyEarning());
+		Assert.assertEquals(dashboardPage.getAnnualEarning(), testData.annualEarning());
+		Assert.assertEquals(dashboardPage.getProfitMargin(), testData.profitMargin());
+		Assert.assertEquals(dashboardPage.getAvailableInventory(), testData.availableInventory());
 
 		// order history search
-		dashboardPage.searchOrderHistoryBy("adams");
-		Assert.assertEquals(dashboardPage.getSearchResultsCount(), 8);
+		dashboardPage.searchOrderHistoryBy(testData.searchKeyword());
+		Assert.assertEquals(dashboardPage.getSearchResultsCount(), testData.searchResultsCount());
 	}
 
 	@Test(dependsOnMethods = "dashboardTest")
