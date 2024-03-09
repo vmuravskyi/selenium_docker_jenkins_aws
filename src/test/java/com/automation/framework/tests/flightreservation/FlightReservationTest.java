@@ -10,6 +10,8 @@ import com.automation.framework.models.FlightReservationTestData;
 import com.automation.framework.pages.flightreservation.FlightsConfirmationPage;
 import com.automation.framework.pages.flightreservation.RegistrationPage;
 import com.automation.framework.tests.BaseTest;
+import com.automation.framework.utils.Config;
+import com.automation.framework.utils.Constants;
 import com.automation.framework.utils.JsonUtil;
 
 public class FlightReservationTest extends BaseTest {
@@ -25,7 +27,7 @@ public class FlightReservationTest extends BaseTest {
 	@Test
 	public void reserveFlightTest() {
 		RegistrationPage registrationPage = new RegistrationPage(driver);
-		registrationPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html");
+		registrationPage.goTo(Config.get(Constants.FLIGHT_RESERVATION_URL));
 		Assert.assertTrue(registrationPage.isAt());
 
 		FlightsConfirmationPage flightsConfirmationPage = registrationPage.enterFirstName(testData.firstName())

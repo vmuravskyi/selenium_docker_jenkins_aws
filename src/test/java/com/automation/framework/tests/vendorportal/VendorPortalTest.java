@@ -9,6 +9,8 @@ import com.automation.framework.models.VendorPortalTestData;
 import com.automation.framework.pages.vendorportal.DashboardPage;
 import com.automation.framework.pages.vendorportal.LoginPage;
 import com.automation.framework.tests.BaseTest;
+import com.automation.framework.utils.Config;
+import com.automation.framework.utils.Constants;
 import com.automation.framework.utils.JsonUtil;
 
 public class VendorPortalTest extends BaseTest {
@@ -28,8 +30,7 @@ public class VendorPortalTest extends BaseTest {
 
 	@Test
 	public void loginTest() {
-		loginPage = new LoginPage(driver);
-		loginPage.goTo("https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html");
+		loginPage.goTo(Config.get(Constants.VENDOR_PORTAL_URL));
 		Assert.assertTrue(loginPage.isAt());
 		loginPage.login(testData.username(), testData.password());
 	}
