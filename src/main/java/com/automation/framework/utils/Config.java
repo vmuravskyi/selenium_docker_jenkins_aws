@@ -25,7 +25,9 @@ public class Config {
 
 		// log properties
 		LOGGER.info("Running with properties");
+		LOGGER.info("-----------------------");
 		properties.stringPropertyNames().forEach(key -> LOGGER.info("{}={}", key, properties.getProperty(key)));
+		LOGGER.info("-----------------------");
 	}
 
 	private static Properties loadProperties() {
