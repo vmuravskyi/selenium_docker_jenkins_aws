@@ -17,15 +17,19 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 
+import com.automation.framework.tests.listener.TestListener;
 import com.automation.framework.utils.Config;
 import com.automation.framework.utils.Constants;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+@Listeners({TestListener.class})
 public abstract class BaseTest {
 
 	protected static final Logger LOGGER = LoggerFactory.getLogger(BaseTest.class);
@@ -37,11 +41,11 @@ public abstract class BaseTest {
 	}
 
 	@BeforeTest
-	public void setDriver() throws MalformedURLException {
+	public void setDriver(ITestContext context) throws MalformedURLException {
 		this.driver = Boolean.parseBoolean(Config.get(Constants.GRID_ENABLED)) ? getRemoteDriver() : getLocalDriver();
-
 		this.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		this.driver.manage().window().setSize(new Dimension(1920, 1080));
+		context.setAttribute(Constants.DRIVER, this.driver);
 	}
 
 	@AfterTest(alwaysRun = true)
