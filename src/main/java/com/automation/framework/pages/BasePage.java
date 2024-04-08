@@ -11,12 +11,12 @@ import org.slf4j.LoggerFactory;
 
 public abstract class BasePage {
 
-	protected final static Logger LOGGER = LoggerFactory.getLogger(BasePage.class);
+	protected static final Logger LOGGER = LoggerFactory.getLogger(BasePage.class);
 
 	protected WebDriver driver;
 	protected WebDriverWait wait;
 
-	public BasePage(WebDriver driver) {
+	protected BasePage(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		waitForJavaScriptToComplete();
