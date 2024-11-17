@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 public class Config {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(Config.class);
-	private static final String DEFAULT_PROPERTIES = "src/test/resources/config/default.properties";
+	private static final String DEFAULT_PROPERTIES = "./config/default.properties";
 	private static Properties properties;
 
 	public static void initialize() {
