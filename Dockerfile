@@ -1,25 +1,17 @@
 FROM bellsoft/liberica-openjdk-alpine:21-cds
 
+# install curl and jq
+RUN apk add curl jq
+
 # create workspace
 WORKDIR /home/selenium-docker
 
 # Add the required files
-COPY target/docker-resources ./
-
-# Environment variables
-# BROWSER
-# HUB_HOST
-# TEST_SUITE
-# THREAD_COUNT
+COPY target/docker-resources         ./
+COPY run.sh                          run.sh
 
 # Run the tests
-ENTRYPOINT java -cp 'libs/*' \
-    -Dselenium.grid.enabled=true \
-    -Dselenium.grid.hubHost=${HUB_HOST} \
-    -Dbrowser=${BROWSER} \
-    org.testng.TestNG \
-    -threadcount ${THREAD_COUNT} \
-    ./test-suits/${TEST_SUITE}
+ENTRYPOINT ["sh", "run.sh"]
 
-# docker build -t=muravskyi/test-automation .
-# docker run -e BROWSER=chrome -e HUB_HOST=192.168.0.21 -e TEST_SUITE=flight-reservation.xml -e THREAD_COUNT=4 muravskyi/test-automation
+# docker build -t=muravskyi/automation-tests .
+# docker run -e BROWSER=chrome -e HUB_HOST=192.168.0.21 -e TEST_SUITE=flight-reservation.xml -e THREAD_COUNT=4 muravskyi/automation-tests
