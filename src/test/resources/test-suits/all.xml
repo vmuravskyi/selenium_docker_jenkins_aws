@@ -1,8 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="all-suites" parallel="none">
-    <suite-files>
-        <suite-file path="flight-reservation.xml"/>
-        <suite-file path="test-to-fail.xml"/>
-        <suite-file path="vendor-portal.xml"/>
-    </suite-files>
-</suite>
