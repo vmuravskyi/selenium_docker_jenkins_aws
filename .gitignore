@@ -30,3 +30,12 @@ target
 
 # docker
 result
+
+# jenkins
+**/volumes
+**/volumes/master
+**/volumes/node
+**/vol
+**/output
+
+**/.DS_Store
