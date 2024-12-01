@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 public class TestToFail {
 
-	@Test()
-	public void failTest() {
-		assert false;
-	}
+    @Test
+    public void failTest() {
+        assert false;
+    }
 
 }

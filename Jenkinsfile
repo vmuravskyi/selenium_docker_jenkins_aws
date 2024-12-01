@@ -6,19 +6,26 @@ pipeline {
 
         stage('build jar') {
             steps {
-                sh "mvn clean package -DskipTests=true"
+                sh 'mvn clean package -DskipTests'
             }
         }
 
-        stage('build docker image') {
+        stage('build image') {
             steps {
-                sh "docker build -t=muravskyi/selenium-automation ."
+                sh 'docker build -t vmuravskyi/dokerized-tests:latest .'
             }
         }
 
-        stage('push docker image to docker-hub') {
+        stage('push image') {
+            environment {
+                // assuming you have stored the credentials with this name
+                DOCKER_HUB = credentials('dockerhub-creds')
+            }
             steps {
-                sh "docker push muravskyi/selenium-automation"
+                sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                sh 'docker push vmuravskyi/dokerized-tests:latest'
+                sh "docker tag vmuravskyi/dokerized-tests:latest vmuravskyi/dokerized-tests:${env.BUILD_NUMBER}"
+                sh "docker push vmuravskyi/dokerized-tests:${env.BUILD_NUMBER}"
             }
         }
 
@@ -26,7 +33,7 @@ pipeline {
 
     post {
         always {
-            echo "doing clean up"
+            sh 'docker logout'
         }
     }
 
