@@ -27,7 +27,7 @@ services:
       - SE_NODE_OVERRIDE_MAX_SESSIONS=true
       - SE_NODE_MAX_SESSIONS=4
   automation-tests:
-    image: muravskyi/automation-tests
+    image: vmuravskyi/dokerized-tests
     depends_on:
       - hub
       - chrome
