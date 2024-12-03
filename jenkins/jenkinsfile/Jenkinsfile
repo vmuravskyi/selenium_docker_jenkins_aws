@@ -1,0 +1,48 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('build jar') {
+            steps {
+                sh 'mvn clean package -DskipTests'
+            }
+        }
+
+        stage('build image') {
+            steps {
+                sh 'docker build -t vmuravskyi/dokerized-tests:latest .'
+            }
+        }
+
+        stage('push image') {
+            environment {
+                // assuming you have stored the credentials with this name
+                DOCKER_HUB = credentials('dockerhub-creds')
+            }
+            steps {
+                script {
+                    // Capture the Git commit hash for tagging docker image
+                    COMMIT_HASH = sh(
+                            script: 'git rev-parse --short HEAD',
+                            returnStdout: true
+                    ).trim()
+                    echo "Commit Hash: ${COMMIT_HASH}"
+                }
+                // Login to Docker Hub
+                sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+                // Tag the image with the commit hash
+                sh "docker tag vmuravskyi/dokerized-tests:latest vmuravskyi/dokerized-tests:${COMMIT_HASH}"
+                // Push the 'latest' tag
+                sh 'docker push vmuravskyi/dokerized-tests:latest'
+                // Push the commit hash tag
+                sh "docker push vmuravskyi/dokerized-tests:${COMMIT_HASH}"
+            }
+        }
+    }
+
+    post {
+        always {
+            sh 'docker logout'
+        }
+    }
+}

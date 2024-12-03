@@ -7,4 +7,4 @@ services:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - .volumes/master:/var/jenkins_home
+      - ./volumes/master:/var/jenkins_home
