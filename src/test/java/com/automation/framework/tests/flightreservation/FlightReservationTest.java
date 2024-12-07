@@ -1,5 +1,6 @@
 package com.automation.framework.tests.flightreservation;
 
+import com.automation.framework.utils.TestGroups;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -24,7 +25,7 @@ public class FlightReservationTest extends BaseTest {
 		this.testData = JsonUtil.getTestData(testDataPath, FlightReservationTestData.class);
 	}
 
-	@Test
+	@Test(groups = {TestGroups.REGRESSION, TestGroups.FLIGHT_RESERVATION})
 	public void reserveFlightTest() {
 		RegistrationPage registrationPage = new RegistrationPage(driver);
 		registrationPage.goTo(Config.get(Constants.FLIGHT_RESERVATION_URL));

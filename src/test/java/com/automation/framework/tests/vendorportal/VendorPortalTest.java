@@ -1,5 +1,6 @@
 package com.automation.framework.tests.vendorportal;
 
+import com.automation.framework.utils.TestGroups;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -28,14 +29,14 @@ public class VendorPortalTest extends BaseTest {
 		this.testData = JsonUtil.getTestData(testDataPath, VendorPortalTestData.class);
 	}
 
-	@Test
+	@Test(groups = {TestGroups.REGRESSION, TestGroups.SMOKE})
 	public void loginTest() {
 		loginPage.goTo(Config.get(Constants.VENDOR_PORTAL_URL));
 		Assert.assertTrue(loginPage.isAt());
 		loginPage.login(testData.username(), testData.password());
 	}
 
-	@Test(dependsOnMethods = "loginTest")
+	@Test(dependsOnMethods = "loginTest", groups = {TestGroups.REGRESSION, TestGroups.DASHBOARD})
 	public void dashboardTest() {
 		Assert.assertTrue(dashboardPage.isAt());
 
