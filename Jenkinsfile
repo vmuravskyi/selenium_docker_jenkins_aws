@@ -2,6 +2,10 @@ pipeline {
 
     agent any
 
+    when {
+        branch 'master'
+    }
+
     stages {
 
         stage('build jar') {
