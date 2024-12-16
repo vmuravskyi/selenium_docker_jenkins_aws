@@ -1,0 +1,273 @@
+Started by user [8mha:////4E4YDPwT95QWqjk1uE4LOs6TCFhvwFY559MLSSIihgwMAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Obtained Jenkinsfile from git https://github.com/vmuravskyi/test-automation-ci.git
+[8mha:////4L2sE7X2L4o6ZL3M3l52FCi1ecDU353lJa4GWili6Z/bAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4GKgY2LfqumPgv+/rG39LkFy2bQLlf8Uyfjcwg1sy/QeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4EybbcYtk1PbUs+kWK+InX6y4fwHZ+bNc4xeKoSwIE5XAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZh/eT83ILSktQifT9/F1dVUzdDfQDuIiIMyAAAAA==[0mNODE_1 in /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT
+[8mha:////4OfpvEy0dOE62nju8RNhxd1NHjSpYkl5bmM+ID5s9WHIAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NvWpUzW+E+05Xg96mDuerAx0Ga45m628d4jS8gXPW5kAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4J61vihwOWIQ9P5vddYrptcHD4Q4BZ3UQ3s5uWcGD4cuAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4GbJLs0k6N+dbWIN8EQ5WhqY2LVCAWNbrJ/oIRfdYB/PAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Avoid second fetch
+Checking out Revision e19dd0c3a6914f306aa7ddf72750d0ab35628a4e (refs/remotes/origin/master)
+Commit message: "update jenkins docker compose"
+First time build. Skipping changelog.
+[8mha:////4FPxjgcorFewYzKoHnYB0rpUOL3pH7FPPmSqIbbhB75NAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4NN1vFQVPiuQ8tB9+EKzsrDrHgY856lpO01DrUpIRFBSAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ks/oqjdtieLQ2NWNy4NKtrVDCryrEBDzPgC6fe11FtWAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4IUBj6yxi3wwGlJyo4fhBdy0wyNkVzPPSWsch9uUtT21AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4JKHTz0+MRRpxzmEwfnyVOxAiteB32bsmoj1JeUaDMqOAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4OryZ3RwO/BCDxfW+h43BKvZ9oq6qazwnzJcp+S3ECecAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (build jar)
+[8mha:////4B1ozoBIUoASzlHrG48zvIxNhdwwC+K+8IVCD10/w5q2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
+Cloning repository https://github.com/vmuravskyi/test-automation-ci.git
+ > git init /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT # timeout=10
+Fetching upstream changes from https://github.com/vmuravskyi/test-automation-ci.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.0'
+ > git fetch --tags --force --progress -- https://github.com/vmuravskyi/test-automation-ci.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vmuravskyi/test-automation-ci.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e19dd0c3a6914f306aa7ddf72750d0ab35628a4e # timeout=10
++ mvn clean package -DskipTests
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.automation.framework:selenium_docker_jenkins_aws:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: com.fasterxml.jackson.core:jackson-databind:jar -> version ${jackson.version} vs 2.16.1 @ line 65, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------< com.automation.framework:selenium_docker_jenkins_aws >--------
+[INFO] Building selenium_docker_jenkins_aws 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ selenium_docker_jenkins_aws ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ selenium_docker_jenkins_aws ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ selenium_docker_jenkins_aws ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 15 source files with javac [debug release 17] to target/classes
+[INFO] /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/src/main/java/com/automation/framework/utils/JsonUtil.java: /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/src/main/java/com/automation/framework/utils/JsonUtil.java uses unchecked or unsafe operations.
+[INFO] /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/src/main/java/com/automation/framework/utils/JsonUtil.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ selenium_docker_jenkins_aws ---
+[INFO] Copying 12 resources from src/test/resources to target/test-classes
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ selenium_docker_jenkins_aws ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 5 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ selenium_docker_jenkins_aws ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- dependency:3.6.0:copy-dependencies (copy-dependencies) @ selenium_docker_jenkins_aws ---
+[INFO] Copying selenium-java-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-java-4.18.1.jar
+[INFO] Copying selenium-api-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-api-4.18.1.jar
+[INFO] Copying selenium-chrome-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-chrome-driver-4.18.1.jar
+[INFO] Copying auto-service-annotations-1.1.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/auto-service-annotations-1.1.1.jar
+[INFO] Copying selenium-chromium-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-chromium-driver-4.18.1.jar
+[INFO] Copying selenium-json-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-json-4.18.1.jar
+[INFO] Copying selenium-manager-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-manager-4.18.1.jar
+[INFO] Copying selenium-devtools-v120-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-devtools-v120-4.18.1.jar
+[INFO] Copying selenium-devtools-v121-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-devtools-v121-4.18.1.jar
+[INFO] Copying selenium-devtools-v122-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-devtools-v122-4.18.1.jar
+[INFO] Copying selenium-devtools-v85-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-devtools-v85-4.18.1.jar
+[INFO] Copying selenium-edge-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-edge-driver-4.18.1.jar
+[INFO] Copying selenium-firefox-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-firefox-driver-4.18.1.jar
+[INFO] Copying selenium-http-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-http-4.18.1.jar
+[INFO] Copying failsafe-3.3.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/failsafe-3.3.2.jar
+[INFO] Copying selenium-ie-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-ie-driver-4.18.1.jar
+[INFO] Copying selenium-remote-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-remote-driver-4.18.1.jar
+[INFO] Copying guava-33.0.0-jre.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/guava-33.0.0-jre.jar
+[INFO] Copying failureaccess-1.0.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/failureaccess-1.0.2.jar
+[INFO] Copying listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[INFO] Copying jsr305-3.0.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jsr305-3.0.2.jar
+[INFO] Copying checker-qual-3.41.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/checker-qual-3.41.0.jar
+[INFO] Copying error_prone_annotations-2.23.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/error_prone_annotations-2.23.0.jar
+[INFO] Copying j2objc-annotations-2.8.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/j2objc-annotations-2.8.jar
+[INFO] Copying opentelemetry-semconv-1.23.1-alpha.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-semconv-1.23.1-alpha.jar
+[INFO] Copying opentelemetry-api-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-api-1.35.0.jar
+[INFO] Copying opentelemetry-context-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-context-1.35.0.jar
+[INFO] Copying opentelemetry-exporter-logging-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-exporter-logging-1.35.0.jar
+[INFO] Copying opentelemetry-sdk-common-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-common-1.35.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar
+[INFO] Copying opentelemetry-sdk-extension-autoconfigure-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-extension-autoconfigure-1.35.0.jar
+[INFO] Copying opentelemetry-api-events-1.35.0-alpha.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-api-events-1.35.0-alpha.jar
+[INFO] Copying opentelemetry-sdk-trace-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-trace-1.35.0.jar
+[INFO] Copying opentelemetry-extension-incubator-1.35.0-alpha.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-extension-incubator-1.35.0-alpha.jar
+[INFO] Copying opentelemetry-sdk-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-1.35.0.jar
+[INFO] Copying opentelemetry-sdk-metrics-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-metrics-1.35.0.jar
+[INFO] Copying opentelemetry-sdk-logs-1.35.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/opentelemetry-sdk-logs-1.35.0.jar
+[INFO] Copying byte-buddy-1.14.12.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/byte-buddy-1.14.12.jar
+[INFO] Copying selenium-os-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-os-4.18.1.jar
+[INFO] Copying commons-exec-1.3.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/commons-exec-1.3.jar
+[INFO] Copying selenium-safari-driver-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-safari-driver-4.18.1.jar
+[INFO] Copying selenium-support-4.18.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-support-4.18.1.jar
+[INFO] Copying logback-classic-1.4.14.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/logback-classic-1.4.14.jar
+[INFO] Copying logback-core-1.4.14.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/logback-core-1.4.14.jar
+[INFO] Copying slf4j-api-2.0.7.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/slf4j-api-2.0.7.jar
+[INFO] Copying webdrivermanager-5.6.3.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/webdrivermanager-5.6.3.jar
+[INFO] Copying gson-2.10.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/gson-2.10.1.jar
+[INFO] Copying docker-java-3.3.4.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/docker-java-3.3.4.jar
+[INFO] Copying docker-java-core-3.3.4.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/docker-java-core-3.3.4.jar
+[INFO] Copying docker-java-api-3.3.4.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/docker-java-api-3.3.4.jar
+[INFO] Copying commons-io-2.13.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/commons-io-2.13.0.jar
+[INFO] Copying bcpkix-jdk18on-1.76.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/bcpkix-jdk18on-1.76.jar
+[INFO] Copying bcprov-jdk18on-1.76.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/bcprov-jdk18on-1.76.jar
+[INFO] Copying bcutil-jdk18on-1.76.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/bcutil-jdk18on-1.76.jar
+[INFO] Copying jcl-over-slf4j-1.7.30.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jcl-over-slf4j-1.7.30.jar
+[INFO] Copying docker-java-transport-httpclient5-3.3.4.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/docker-java-transport-httpclient5-3.3.4.jar
+[INFO] Copying docker-java-transport-3.3.4.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/docker-java-transport-3.3.4.jar
+[INFO] Copying jna-5.13.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jna-5.13.0.jar
+[INFO] Copying dec-0.1.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/dec-0.1.2.jar
+[INFO] Copying commons-lang3-3.14.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/commons-lang3-3.14.0.jar
+[INFO] Copying commons-compress-1.25.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/commons-compress-1.25.0.jar
+[INFO] Copying httpclient5-5.2.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/httpclient5-5.2.1.jar
+[INFO] Copying httpcore5-5.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/httpcore5-5.2.jar
+[INFO] Copying httpcore5-h2-5.2.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/httpcore5-h2-5.2.jar
+[INFO] Copying jackson-databind-2.16.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jackson-databind-2.16.1.jar
+[INFO] Copying jackson-annotations-2.16.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jackson-annotations-2.16.1.jar
+[INFO] Copying jackson-core-2.16.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jackson-core-2.16.1.jar
+[INFO] Copying testng-7.9.0.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/testng-7.9.0.jar
+[INFO] Copying jcommander-1.82.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jcommander-1.82.jar
+[INFO] Copying jquery-3.7.1.jar to /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/jquery-3.7.1.jar
+[INFO] 
+[INFO] --- resources:3.3.1:copy-resources (copy-resources) @ selenium_docker_jenkins_aws ---
+[INFO] Copying 12 resources from src/test/resources to target/docker-resources
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ selenium_docker_jenkins_aws ---
+[INFO] Building jar: /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-docker.jar
+[INFO] 
+[INFO] --- jar:3.3.0:test-jar (default) @ selenium_docker_jenkins_aws ---
+[INFO] Building jar: /Users/volodymyr/Dev/projects/java/test-automation-ci/jenkins/volumes/node/workspace/DOCKER_AGENT/target/docker-resources/libs/selenium-docker-tests.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.260 s
+[INFO] Finished at: 2024-12-02T23:29:45+01:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4FsEPPewgei9AzXp49+sDbmyMgn9H4hzNnFMz/ht1lW8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4P88u5MjoUNVVqBWgkfpbGRq83/UzbnKsw2kriUkkQEqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // stage
+[8mha:////4OGKLP06TbIK9aFMxz3KaoRs213ql7spiZgNOhKMtNM9AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUnRgQE2uUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hioGOFEwzGnsLMbWst6PZk4sU+hunjJzdGUtYSSvmdBZkNLntQpKGlYVJWw4bDW2nqJFk2DHnXzI2ks09SWFeTtyKK0a4AkFn8lJhvQtU4D9fVSR8Mf5C4CpT1A2zWKH5Vl9ANydZ8vCAAAA[0m[Pipeline] stage
+[8mha:////4FZBOIjBY43Q1jkSDSt2TWPwNdYDUi5/jD8VxMdq1cg5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] { (build image)
+[8mha:////4Gz+3Ob3ndziz0bC5lOhViZaYYIottACTTKPCUE2FWfzAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiOhCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBr2eB0O+AAAA[0m[Pipeline] sh
++ docker build -t vmuravskyi/dokerized-tests:latest .
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 554B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/bellsoft/liberica-openjdk-alpine:21-cds
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM docker.io/bellsoft/liberica-openjdk-alpine:21-cds
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 47.33MB 0.2s done
+#5 DONE 0.2s
+
+#6 [2/5] RUN apk add curl jq
+#6 CACHED
+
+#7 [3/5] WORKDIR /home/selenium-docker
+#7 CACHED
+
+#8 [4/5] COPY target/docker-resources         ./
+#8 DONE 0.1s
+
+#9 [5/5] COPY run.sh                          run.sh
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers 0.1s done
+#10 writing image sha256:bd461ba00fe77fa5470ba5a64479d67d49f705fcd2b8ab2bb3164971e776d3e9 done
+#10 naming to docker.io/vmuravskyi/dokerized-tests:latest done
+#10 DONE 0.1s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/lwof1lkct0rfu01p6zqbn00qb
+[8mha:////4OKziHD2awkR/Bmdx8ERnPYsjggwgN5q5Wmwu5EoCqZWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICVEgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AEWNdkpvgAAAA==[0m[Pipeline] }
+[8mha:////4KUYUZ7uNZ6RsBG4opdA9vNMw7vegRkyEyCAZfl6h0ZEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0FAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AEi+zpyvgAAAA==[0m[Pipeline] // stage
+[8mha:////4InITrM/Cq6Y/wmaT6ZrHCxXc1p4fZ0TkCz8zlOJAlQpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohU7YqYWKMunCCkISSN/m+TlHbiRFyNOxCoxIQHy7ZkvecLyhjgSMFwp7G3GJXlg59MTnym0F89zdzRhSvCSF7zVs8tdfq01paShlUFg42ArUblKVo0CXbCybusvERTnVPI20EAs90IDyhEJicZ0rcsAfa3qYuEP85fACxDAlbX2Zrm8yzf8hZCqsIAAAA=[0m[Pipeline] stage
+[8mha:////4B1X6yLF+1RZgdr8CjgRVivFYK8MvKsCg61QTn/bZUh9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (push image)
+[8mha:////4Fqvp2nyljTwRSV1nHsehkPZVfTUzOUrMxnKBtAziNc2AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $DOCKER_HUB or $DOCKER_HUB_PSW
+[8mha:////4KLHVEMFq7Dp6q3+U/ASIt67FjiyVMlCRyy7AnVcArKaAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQjAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/hYjrHCAAAA[0m[Pipeline] {
+[8mha:////4P12NWiR6cJqYNu44JWWbv5fPhCCZ0npoJU6jt8epXyYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEIWoEpvgAAAA==[0m[Pipeline] sh
++ echo ****
++ docker login -u vmuravskyi --password-stdin
+Login Succeeded
+[8mha:////4N81h4KMzlmHSm2JlQAoWFNxuucsh0TtWmH2SlWwvOjCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q1Ja5owvgAAAA==[0m[Pipeline] sh
++ docker push vmuravskyi/dokerized-tests:latest
+The push refers to repository [docker.io/vmuravskyi/dokerized-tests]
+c4b97c7965bf: Preparing
+2e4f0969b339: Preparing
+255e260b463a: Preparing
+2dfc9ebf5ad9: Preparing
+d1cc589faef6: Preparing
+56b2d3257aa4: Preparing
+16113d51b718: Preparing
+56b2d3257aa4: Waiting
+16113d51b718: Waiting
+d1cc589faef6: Layer already exists
+255e260b463a: Layer already exists
+2dfc9ebf5ad9: Layer already exists
+16113d51b718: Layer already exists
+56b2d3257aa4: Layer already exists
+c4b97c7965bf: Pushed
+2e4f0969b339: Pushed
+latest: digest: sha256:fb13f67a82d2acc660acb71cf41073ea65408f246a9ef43fea5562af5dd1f147 size: 1789
+[8mha:////4Os0ees8WVgOS+jsBAhDnsRg2g1Uj/0/UXUMqiykbXAaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEhIaq0lhteYGJjnFh3xnZIKl7E1/gDgUhUbLHa2WaeL1imCEeOFltDnaPUOAy+t9PCgWN38Txgy2dsmBJ7g9IMkrWpZ5ScDcwpSlgIWBlqPCdHNsNatOquKq/IVqccp+8goHT6Bg8oxGTOKuYvjBE2114npp/nrwDGkKHc7j61D2+GdwK3vgAAAA==[0m[Pipeline] sh
++ docker tag vmuravskyi/dokerized-tests:latest vmuravskyi/dokerized-tests:9
+[8mha:////4IkYmTq3d/cnSUT/F+qwMm9UE1oPOPUs7jLoljZifrnIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3HRhmuvgAAAA==[0m[Pipeline] sh
++ docker push vmuravskyi/dokerized-tests:9
+The push refers to repository [docker.io/vmuravskyi/dokerized-tests]
+c4b97c7965bf: Preparing
+2e4f0969b339: Preparing
+255e260b463a: Preparing
+2dfc9ebf5ad9: Preparing
+d1cc589faef6: Preparing
+56b2d3257aa4: Preparing
+16113d51b718: Preparing
+56b2d3257aa4: Waiting
+16113d51b718: Waiting
+c4b97c7965bf: Layer already exists
+2e4f0969b339: Layer already exists
+2dfc9ebf5ad9: Layer already exists
+255e260b463a: Layer already exists
+d1cc589faef6: Layer already exists
+16113d51b718: Layer already exists
+56b2d3257aa4: Layer already exists
+9: digest: sha256:fb13f67a82d2acc660acb71cf41073ea65408f246a9ef43fea5562af5dd1f147 size: 1789
+[8mha:////4DKqtIRSGh2HUVpPKxDHnRXSe+eIB3ncsya4tpnLFl3WAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHcETLavgAAAA==[0m[Pipeline] }
+[8mha:////4MyTotvsym/vMheaMJdA5rsAo44W0Pe9nRBIfXkldQOqAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AHv8mlmvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4BG3YIRsYlUgPtde7rv/xEKJfJiQ3Dc05eMbyTNwqwYEAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkhJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrKpc9XNB+IVmX6+AAAA[0m[Pipeline] }
+[8mha:////4IX9s6Ni10gyPPcbWLw4XlZ7cEJMP5n7Y5nmgFX48VkRAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRkhJR0VppeIGJjXFi3Tn2haTiRXyNP2ARiYotVjvbzOsN2xThRNGK3uDgMHVOBD/ZvMRMcbh5mkVPV9ERJvJGtGZuSZvzii2xgTVFCRsJO4Odp+TQMuxlrx6q8gptdeGYv6OE0ukRnlDIbGYV+QtLhMN90onw5/krgCUEhrJpctX1B9H2wsK+AAAA[0m[Pipeline] // stage
+[8mha:////4B3ykWgtdn+SRHLANrJFxygkMNC6U7H9R0dbDMG3aXx3AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWyIqWvUhROEJoSk0f8lSUknTsTVuAOBSkx4sGxL1nu+oAoejuQ1swoHg6E3bHSTzokl8sPFUWKWzqwnDOQU61TqSKp2qR1FBYuKElYc1gp7R8GgjrDhVtxF7QTq+hR93g4cSiNv8ICCZ3IUPn7L7GF7nWQg/HH+AmAeI5RNk223/zyrN1v+bNrCAAAA[0m[Pipeline] stage
+[8mha:////4CYiapdXFqlrkSc60eLBPu8mQeqo/qnt80cLmsHgh3RSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ACbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASMfXIzCAAAA[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4HvQ5+TCB0Xf6f3U0FoI6RDyVVCK6+OsgkPT4EIrQmJCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN6Ew6eS+AAAA[0m[Pipeline] sh
++ docker logout
+Removing login credentials for https://index.docker.io/v1/
+[8mha:////4GtiZc+OBXeVxMayMFCV9RahY6G8VJRH7TzqOk0xxeAQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQElECzevgAAAA==[0m[Pipeline] }
+[8mha:////4CvI92b6JLc/mUWdyTG/qhDGzUCHwn7dxkr4HvmpUeD+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFmkn1YvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H0Rhja5u2UCTQEgr+K9nSTxz+iamt39Ckruhgyc1eM4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QHO133RvgAAAA==[0m[Pipeline] }
+[8mha:////4CldrnJAEJUhdjfQtL8h43PQZopgAsOsDyCv1gWwcKjZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISJDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPx6I0kS+AAAA[0m[Pipeline] // withEnv
+[8mha:////4HlaejPhI93wEImNF6pWd3vi9o7wJMt3LXoQROkbeqZ1AAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6LEhM04uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAhpPov70AAAA=[0m[Pipeline] }
+[8mha:////4Mb8q3fwdUsTl8i8j9qbWcAgT3Bm60UeN60JGN7zUq4qAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77eCbPcB9XwsZr0AAAA=[0m[Pipeline] // node
+[8mha:////4E+XH/g0jwmLUXMiDaVe7+TF0N8C1q0PNVeAAk0IwJlNAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRgA5R0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q73eCbPsB02VLLL0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
